@@ -352,7 +352,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: d5fc97df50a675d44807faf80655570e, type: 3}
       propertyPath: m_Name
-      value: NinjaBase
+      value: Shinobi
       objectReference: {fileID: 0}
     - target: {fileID: -8473194889046782945, guid: d5fc97df50a675d44807faf80655570e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -502,6 +502,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 212.377
       objectReference: {fileID: 0}
+    - target: {fileID: 3654695972333542323, guid: d5fc97df50a675d44807faf80655570e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9861651
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654695972333542323, guid: d5fc97df50a675d44807faf80655570e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654695972333542323, guid: d5fc97df50a675d44807faf80655570e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654695972333542323, guid: d5fc97df50a675d44807faf80655570e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.1657661
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654695972333542323, guid: d5fc97df50a675d44807faf80655570e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 19.083
+      objectReference: {fileID: 0}
     - target: {fileID: 5554665689531842209, guid: d5fc97df50a675d44807faf80655570e, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.26879624
@@ -577,8 +597,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: -8653719598885068355, guid: d5fc97df50a675d44807faf80655570e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1432895833}
   m_SourcePrefab: {fileID: 4843985084834002234, guid: d5fc97df50a675d44807faf80655570e, type: 3}
+--- !u!1 &1432895832 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8653719598885068355, guid: d5fc97df50a675d44807faf80655570e, type: 3}
+  m_PrefabInstance: {fileID: 1432895831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1432895833
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432895832}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 56a9f50e741ff4f43aef1d22174e744f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
