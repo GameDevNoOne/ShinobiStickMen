@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public float Speed;
-    public float jumpForce;
-    public Transform feet;
-    public Rigidbody2D rb;
+    //I should start having some good Documentation but oh well... I'll at least have some funny comments hopefully.
+    public Rigidbody2D player;
+    public float speed;
+    public Animator playerAnimator;
 
     // Start is called before the first frame update
     void Start()
@@ -20,10 +20,11 @@ public class Movement : MonoBehaviour
     {
         Move();
     }
-
+    //Breakcore hits hard right before realizing your speed needs to be in the thousands
     public void Move()
     {
         float movement = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(movement * Speed * Time.deltaTime, transform.position.y);
+
+        player.velocity = new Vector2(movement * speed * Time.deltaTime, player.position.y);
     }
 }
