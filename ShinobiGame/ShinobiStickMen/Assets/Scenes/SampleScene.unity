@@ -1520,6 +1520,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1432895838}
   speed: 10
+  sprintSpeed: 40
+  playerAnimator: {fileID: 1432895833}
 --- !u!1 &1455716900 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 613742145289411635, guid: d5fc97df50a675d44807faf80655570e, type: 3}
